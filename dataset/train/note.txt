@@ -1,0 +1,1 @@
+Download data from https://www.kaggle.com/aceofspades914/cgi-planes-in-satellite-imagery-w-bboxes
