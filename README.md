@@ -14,3 +14,16 @@ The purpose of this project is to demonstrate how to identify airplanes in satel
 To check the set-up either run sample from Mask R-CNN repository or run test.py provided.
 `python test.py`
 
+![](images/sample_output.png)
+
+## Train Mask R-CNN on airplane dataset
+
+To identify airplanes in satellite images we need to train Mask R-CNN on planes dataset downloaded from the kaggle website.
+
+Training of Mask R-CNN starts from the pre-trained COCO weights.
+
+`python ./plane.py --model=coco`
+
+To resume training from the last saved weights.
+
+`python ./plane.py --model=last`
